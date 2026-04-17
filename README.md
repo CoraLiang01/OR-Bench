@@ -24,7 +24,7 @@ This schema is designed to support evaluation across multiple representation lev
 
 The dataset covers a broad range of optimization problems arising in operations research, management science, and analytics applications. Based on the current examples, domains include:
 
-- Supply Chain
+- Supply Chain Planning
 
 - Revenue Management
 
@@ -36,6 +36,7 @@ The dataset covers a broad range of optimization problems arising in operations 
 
 - Diet Optimization
 
+- Others
 
 The dataset includes both **continuous** and **integer** optimization problems, and spans multiple model classes such as:
 
