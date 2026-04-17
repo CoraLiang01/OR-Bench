@@ -7,25 +7,15 @@ Recent large language models can often generate mathematical formulations and op
 Each instance in the dataset includes the following fields:
 
 | Field | Description |
-
 |---|---|
-
 | `Problem ID` | Unique problem identifier |
-
 | `Text Description` | Natural-language optimization problem description |
-
-| `Domain` | Application domain of the problem |
-
-| `Dataset_address` | Path(s) to the data files associated with the instance |
-
-| `Math Formulation in Latex` | Reference mathematical optimization formulation |
-
-| `Solver Code Grubi Python` | Reference Gurobi Python implementation |
-
+| `Domain` | Application domain |
+| `Dataset Address` | Path(s) to the input data files |
+| `Math Formulation in LaTeX` | Reference mathematical optimization formulation |
+| `Solver Code (Gurobi Python)` | Reference Gurobi Python implementation |
 | `LP File` | Canonical LP-format model |
-
 | `Optimal Value` | Ground-truth optimal objective value |
-
 | `Optimal Solution` | Ground-truth optimal decision variable values |
 
 This schema is designed to support evaluation across multiple representation levels of the same optimization task.
