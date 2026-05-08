@@ -12,9 +12,6 @@ Each instance in the dataset includes the following fields:
 | `Text Description` | Natural-language optimization problem description |
 | `Domain` | Application domain |
 | `Dataset Address` | Path(s) to the input data files |
-| `Math Formulation in LaTeX` | Reference mathematical optimization formulation |
-| `Solver Code (Gurobi Python)` | Reference Gurobi Python implementation |
-| `LP File` | Canonical LP-format model |
 | `Optimal Value` | Ground-truth optimal objective value |
 | `Optimal Solution` | Ground-truth optimal decision variable values |
 
